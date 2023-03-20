@@ -1,6 +1,6 @@
  import React from 'react';
 
-const List = ({people}) => {
+const list = ({people}) => {
   return (
     <>
       {people.map((person) => {
@@ -9,7 +9,7 @@ const List = ({people}) => {
        <img src={person.image}/>
        <div>
         <h4>{person.name}</h4>
-        <p>{person.age} years</p>
+        <p>{person.age} Years</p>
        </div>
      </article>
       })}
@@ -17,4 +17,4 @@ const List = ({people}) => {
   );
 };
 
-export default List;
+export default list;
